@@ -1,24 +1,17 @@
-# README
+# Petrichor blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Building a blog app with Ruby on Rails 5 using postgresql as database and bootstrap to styling.
 
-Things you may want to cover:
+## Live version
 
-* Ruby version
+You can look at it [here](https://warm-harbor-82591.herokuapp.com/)
 
-* System dependencies
+## Currently working on
 
-* Configuration
+Styling stage
 
-* Database creation
+## About
 
-* Database initialization
+You can reach me at: 
+ - [Twitter](https://twitter.com/miss_elliev/)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
