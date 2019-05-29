@@ -1,18 +1,18 @@
 $navbar-default-bg: lightpink;
 
-@import "bootstrap-sprockets";
 @import "bootstrap";
 
-#logo{
+
+#logo {
   float: left;
   font-size: 1.7em;
-  color: white;
+  color: #6700C3;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
-#logo:hover{
-  color: #fff;
+#logo:hover {
+  color: #00C303;
   text-decoration: none;
 }
