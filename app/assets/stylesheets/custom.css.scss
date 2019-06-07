@@ -39,11 +39,13 @@ $navbar-default-bg: rgb(56, 53, 53);
 
 .btn-xlarge{
   background-color: rgb(56, 53, 53);
-  font-size: 1.7 em; 
+  font-size: 1.7 em;
+  border-color: rgb(214, 117, 185);
 }
 
 .btn-xlarge:hover{
   background-color: rgb(107, 104, 104);
+  border-color: rgb(165, 4, 117);
 }
 .article-actions{
   border-top: 1px solid #eaeaea;
