@@ -45,7 +45,22 @@ $navbar-default-bg: rgb(56, 53, 53);
 .btn-xlarge:hover{
   background-color: rgb(107, 104, 104);
 }
-
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+.description{
+  margin-top: 0;
+}
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 footer{
   margin-top: 15px;
   padding-top: 5px;
