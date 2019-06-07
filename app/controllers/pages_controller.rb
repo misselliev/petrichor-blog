@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class PagesController < ActionController::Base
+class PagesController < ApplicationController  
   def home
     puts 'hello'
 end
