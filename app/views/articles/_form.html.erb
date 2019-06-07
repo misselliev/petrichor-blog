@@ -6,18 +6,34 @@
   <%end%>
 </ul>
 <% end %>
-<%=form_for @article do |item|%>
-  <p>
-  <%= item.label :title%> </br>
-  <%= item.text_field :title%>
-  </p>
-  <p>
-  <%= item.label :description%> </br>
-  <%= item.text_area :description%>
-  </p>
-  <p>
-  <%= item.submit%>
-  </p>
-<%end%>
-
-<%= link_to "Back to articles listing", articles_path%>
+<div class="container d-flex align-self">
+  <div class="col-xs-12">
+    <%=form_for @article, :html=>{class:"form-horizontal", role:"form"} do |item|%>
+    
+      <div class="form-group">
+        <div class="control-label-col-sm-2">
+          <%= item.label :title%> 
+        </div>
+        <div class="col-sm-8">
+          <%= item.text_field :title, class: "form-control", placeholder: "Title of article", autofocus: true %>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="control-label-col-sm-2">
+          <%= item.label :description%> 
+        </div>
+        <div class="col-sm-8">
+          <%= item.text_area :description, class:"form-control", rows: 10, placeholder: "Body of the article", autofocus: true%>
+        </div>
+      </div>
+      <div class= "form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <%= item.submit class:"btn btn-primary btn-lg"%>
+        </div> 
+      </div>
+    <%end%>
+    <div class="col-xs-4 col-xs-offset-4">
+      [<%= link_to "Cancel request and go back to articles listing", articles_path%>]
+    </div>
+  </div>
+</div>

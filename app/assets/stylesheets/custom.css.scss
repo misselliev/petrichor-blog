@@ -16,7 +16,9 @@ $navbar-default-bg: rgb(56, 53, 53);
   color: rgb(214, 117, 185);
   text-decoration: none;
 }
-
+.nav-pink ul li a:hover{
+  color: rgb(214, 117, 185) !important;
+}
 .center{
   text-align: center;
 }
@@ -45,7 +47,7 @@ $navbar-default-bg: rgb(56, 53, 53);
 }
 
 footer{
-  margin-top: 45px;
+  margin-top: 15px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
