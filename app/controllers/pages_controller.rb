@@ -2,7 +2,7 @@
 
 class PagesController < ApplicationController  
   def home
-    puts 'hello'
+    redirect_to articles_path if logged_in?
 end
 
   def about; end
