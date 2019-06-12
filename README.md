@@ -4,11 +4,11 @@ Building a blog app with Ruby on Rails 5 using postgresql as database and bootst
 
 ## Live version
 
-You can look at it [here](https://warm-harbor-82591.herokuapp.com/)
+You can look at it [here](https://warm-bayou-34500.herokuapp.com/)
 
 ## Currently working on
 
-Setting up authorization and authentication process
+Setting up users as admin
 
 ## About
 
