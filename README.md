@@ -8,7 +8,7 @@ You can look at it [here](https://warm-harbor-82591.herokuapp.com/)
 
 ## Currently working on
 
-Adding user functionality
+Setting up authorization and authentication process
 
 ## About
 
