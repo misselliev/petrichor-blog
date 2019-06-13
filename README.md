@@ -8,7 +8,7 @@ You can look at it [here](https://warm-bayou-34500.herokuapp.com/)
 
 ## Currently working on
 
-Setting up users as admin
+Adding tests
 
 ## About
 
