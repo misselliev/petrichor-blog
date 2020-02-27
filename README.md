@@ -3,11 +3,11 @@
 
 # 💻 Petrichor blog
 
-Building a blog app with Ruby on Rails 5 using postgresql as database and bootstrap to styling.
+Building a blog app with Ruby on Rails 5 using postgresql as database and bootstrap for styling.
 
 ![alt text](docs/petrichor.png)
 
-## ✨Live Demo
+## ✨ Live Demo
 
 You can look at it [here](https://warm-bayou-34500.herokuapp.com/)
 
@@ -38,6 +38,11 @@ rails db:migrate
 rails server
 ```
 
+## :pencil2: Tests 
+
+```sh
+rake test
+```
 
 ## Author
 
