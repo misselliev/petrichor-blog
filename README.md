@@ -9,7 +9,7 @@ Building a blog app with Ruby on Rails 5 using postgresql as database and bootst
 
 ## ✨ Live Demo
 
-You can look at it [here](https://warm-bayou-34500.herokuapp.com/)
+You can look at it [here](https://warm-bayou-34500.herokuapp.com/).
 
 
 ## 🚀 Getting Started
